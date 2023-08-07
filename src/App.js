@@ -8,7 +8,7 @@ const App = () => {
     <section className="container">
     <h3>{people.length} birthdays today </h3>
     <List people = {people}/>
-    <button onClick = {() => setPeople([])}>Remove all items</button>
+    <button onClick = {() => setPeople([])}>Remove all</button>
     </section>
   )
 }
